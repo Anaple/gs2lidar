@@ -11,6 +11,8 @@ find_package(ament_cmake REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(tf2_ros REQUIRED)
+find_package(geometry_msgs REQUIRED)
+
 
 # target_link_libraries(ydlidar_driver rt pthread)
 if(BUILD_TESTING)
@@ -58,7 +60,16 @@ target_link_libraries(gs2lidar ydlidar_driver)
 
 ament_target_dependencies(gs2lidar rclcpp sensor_msgs tf2_ros)
 
+add_executable(lidar_dis
+  src/main_getdistance.cpp
+)
+target_link_libraries(lidar_dis ydlidar_driver)
+ament_target_dependencies(lidar_dis geometry_msgs rclcpp sensor_msgs tf2_ros)
+
 install(TARGETS gs2lidar
+  DESTINATION lib/${PROJECT_NAME}
+)
+install(TARGETS lidar_dis
   DESTINATION lib/${PROJECT_NAME}
 )
 install(DIRECTORY launch

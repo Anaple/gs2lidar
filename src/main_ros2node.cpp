@@ -169,44 +169,12 @@ private:
     float frequency = 8.0;
     bool ret = false;
 };
-void tfSend(rclcpp::Node::SharedPtr node_ptr)
-{
-    // Define the transform parameters
-    double x = 0.0;
-    double y = 0.0;
-    double z = 0.02;
-    double qx = 0.0;
-    double qy = 0.0;
-    double qz = 0.0;
-    double qw = 1.0;
-
-    std::string parent_frame_id = "base_link";
-    std::string child_frame_id = "laser_frame";
-
-    // Create a transform broadcaster
-    tf2_ros::TransformBroadcaster broadcaster(node_ptr);
-
-    // Define the transform message
-    geometry_msgs::msg::TransformStamped transform;
-    transform.header.stamp = node_ptr->now();
-    transform.header.frame_id = parent_frame_id;
-    transform.child_frame_id = child_frame_id;
-
-    // Set the translation and rotation of the transform
-    transform.transform.translation.x = x;
-    transform.transform.translation.y = y;
-    transform.transform.translation.z = z;
-    transform.transform.rotation.w = qw;
-    transform.transform.rotation.x = qx;
-    transform.transform.rotation.y = qy;
-    transform.transform.rotation.z = qz;
-}
 
 int main(int argc, char **argv)
 {
     rclcpp::init(argc, argv);
     auto node = std::make_shared<LanserScannerNode>(argc, argv);
-    tfSend(node);
+
     rclcpp::spin(node);
     rclcpp::shutdown();
     return 0;
