@@ -1,0 +1,63 @@
+[ 80%] Built target ydlidar_driver
+[35m[1mConsolidate compiler generated dependencies of target gs2lidar[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/gs2lidar.dir/src/main_ros2node.cpp.o[0m
+In file included from [01m[K/home/anaple/rtk_ws/src/gs2lidar/include/serial.h:9[m[K,
+                 from [01m[K/home/anaple/rtk_ws/src/gs2lidar/include/ydlidar_driver.h:54[m[K,
+                 from [01m[K/home/anaple/rtk_ws/src/gs2lidar/include/CYdLidar.h:54[m[K,
+                 from [01m[K/home/anaple/rtk_ws/src/gs2lidar/src/main_ros2node.cpp:4[m[K:
+[01m[K/home/anaple/rtk_ws/src/gs2lidar/include/v8stdint.h:[m[K In function ‘[01m[Kbool ydlidar::fileExists(std::string)[m[K’:
+[01m[K/home/anaple/rtk_ws/src/gs2lidar/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ino[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+  240 |   struct stat info = {0[01;35m[K}[m[K;
+      |                        [01;35m[K^[m[K
+[01m[K/home/anaple/rtk_ws/src/gs2lidar/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_nlink[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/anaple/rtk_ws/src/gs2lidar/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/anaple/rtk_ws/src/gs2lidar/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_uid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/anaple/rtk_ws/src/gs2lidar/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_gid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/anaple/rtk_ws/src/gs2lidar/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__pad0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/anaple/rtk_ws/src/gs2lidar/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_rdev[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/anaple/rtk_ws/src/gs2lidar/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_size[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/anaple/rtk_ws/src/gs2lidar/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/anaple/rtk_ws/src/gs2lidar/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blocks[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/anaple/rtk_ws/src/gs2lidar/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_atim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/anaple/rtk_ws/src/gs2lidar/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mtim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/anaple/rtk_ws/src/gs2lidar/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ctim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/anaple/rtk_ws/src/gs2lidar/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__glibc_reserved[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+In file included from [01m[K/home/anaple/rtk_ws/src/gs2lidar/include/ydlidar_driver.h:56[m[K,
+                 from [01m[K/home/anaple/rtk_ws/src/gs2lidar/include/CYdLidar.h:54[m[K,
+                 from [01m[K/home/anaple/rtk_ws/src/gs2lidar/src/main_ros2node.cpp:4[m[K:
+[01m[K/home/anaple/rtk_ws/src/gs2lidar/include/thread.h:[m[K In static member function ‘[01m[Kstatic Thread Thread::createThread(thread_proc_t, void*)[m[K’:
+[01m[K/home/anaple/rtk_ws/src/gs2lidar/include/thread.h:43:57:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type-Wcast-function-type]8;;[m[K]
+   43 |     pthread_create((pthread_t *)&thread_._handle, NULL, [01;35m[K(void *(*)(void *))proc[m[K,
+      |                                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/anaple/rtk_ws/src/gs2lidar/include/ydlidar_driver.h:57[m[K,
+                 from [01m[K/home/anaple/rtk_ws/src/gs2lidar/include/CYdLidar.h:54[m[K,
+                 from [01m[K/home/anaple/rtk_ws/src/gs2lidar/src/main_ros2node.cpp:4[m[K:
+[01m[K/home/anaple/rtk_ws/src/gs2lidar/include/ydlidar_protocol.h:[m[K At global scope:
+[01m[K/home/anaple/rtk_ws/src/gs2lidar/include/ydlidar_protocol.h:351:27:[m[K [01;35m[Kwarning: [m[Kignoring packed attribute because of unpacked non-POD field ‘[01m[Kstd::vector<LaserPoint> LaserScan::points[m[K’
+  351 |   std::vector<LaserPoint> [01;35m[Kpoints[m[K;
+      |                           [01;35m[K^~~~~~[m[K
+[01m[K/home/anaple/rtk_ws/src/gs2lidar/include/ydlidar_protocol.h:353:15:[m[K [01;35m[Kwarning: [m[Kignoring packed attribute because of unpacked non-POD field ‘[01m[KLaserConfig LaserScan::config[m[K’
+  353 |   LaserConfig [01;35m[Kconfig[m[K;
+      |               [01;35m[K^~~~~~[m[K
+In file included from [01m[K/home/anaple/rtk_ws/src/gs2lidar/include/ydlidar_driver.h:58[m[K,
+                 from [01m[K/home/anaple/rtk_ws/src/gs2lidar/include/CYdLidar.h:54[m[K,
+                 from [01m[K/home/anaple/rtk_ws/src/gs2lidar/src/main_ros2node.cpp:4[m[K:
+[01m[K/home/anaple/rtk_ws/src/gs2lidar/include/help_info.h:[m[K In function ‘[01m[Kbool ydlidar::isSupportMotorCtrl(int)[m[K’:
+[01m[K/home/anaple/rtk_ws/src/gs2lidar/include/help_info.h:439:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kret[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  439 |   bool [01;35m[Kret[m[K = false;
+      |        [01;35m[K^~~[m[K
+[01m[K/home/anaple/rtk_ws/src/gs2lidar/src/main_ros2node.cpp:[m[K At global scope:
+[01m[K/home/anaple/rtk_ws/src/gs2lidar/src/main_ros2node.cpp:171:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+  171 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/anaple/rtk_ws/src/gs2lidar/src/main_ros2node.cpp:[m[K In member function ‘[01m[Kvoid LanserScannerNode::serialReader()[m[K’:
+[01m[K/home/anaple/rtk_ws/src/gs2lidar/src/main_ros2node.cpp:81:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kheader[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   81 |             uint8_t *[01;35m[Kheader[m[K = reinterpret_cast<uint8_t *>(&scan);
+      |                      [01;35m[K^~~~~~[m[K
+[01m[K/home/anaple/rtk_ws/src/gs2lidar/src/main_ros2node.cpp:82:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   82 |             size_t [01;35m[Ksize[m[K = sizeof(scan);
+      |                    [01;35m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/gs2lidar.dir/build.make:76：CMakeFiles/gs2lidar.dir/src/main_ros2node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/gs2lidar.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,11 @@
+/home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar/CMakeFiles/uninstall.dir
+/home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar/CMakeFiles/gs2lidar_uninstall.dir
+/home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar/CMakeFiles/ydlidar_driver.dir
+/home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar/CMakeFiles/gs2lidar.dir
+/home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar/CMakeFiles/test.dir
+/home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar/CMakeFiles/edit_cache.dir
+/home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar/CMakeFiles/rebuild_cache.dir
+/home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar/CMakeFiles/list_install_components.dir
+/home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar/CMakeFiles/install.dir
+/home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar/CMakeFiles/install/local.dir
+/home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar/CMakeFiles/install/strip.dir

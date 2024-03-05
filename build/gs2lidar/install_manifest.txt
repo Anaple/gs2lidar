@@ -1,0 +1,17 @@
+/home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/lib/gs2lidar/gs2lidar
+/home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/launch/ydlidar_launch.py
+/home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/ament_index/resource_index/package_run_dependencies/gs2lidar
+/home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/ament_index/resource_index/parent_prefix_path/gs2lidar
+/home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/environment/ament_prefix_path.sh
+/home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/environment/ament_prefix_path.dsv
+/home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/environment/path.sh
+/home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/environment/path.dsv
+/home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/local_setup.bash
+/home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/local_setup.sh
+/home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/local_setup.zsh
+/home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/local_setup.dsv
+/home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/package.dsv
+/home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/ament_index/resource_index/packages/gs2lidar
+/home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/cmake/gs2lidarConfig.cmake
+/home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/cmake/gs2lidarConfig-version.cmake
+/home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/package.xml

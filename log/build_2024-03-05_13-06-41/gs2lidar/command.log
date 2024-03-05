@@ -1,0 +1,2 @@
+Invoking command in '/home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar -- -j16 -l16
+Invoked command in '/home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar -- -j16 -l16

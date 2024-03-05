@@ -1,0 +1,25 @@
+[0.047s] Invoking command in '/home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar -- -j16 -l16
+[0.083s] [ 80%] Built target ydlidar_driver
+[0.099s] [100%] Built target gs2lidar
+[0.107s] Invoked command in '/home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar -- -j16 -l16
+[0.147s] Invoking command in '/home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar
+[0.151s] -- Install configuration: "Release"
+[0.152s] -- Up-to-date: /home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/lib/gs2lidar/gs2lidar
+[0.152s] -- Up-to-date: /home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/launch
+[0.152s] -- Installing: /home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/launch/ydlidar_launch.py
+[0.152s] -- Up-to-date: /home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/ament_index/resource_index/package_run_dependencies/gs2lidar
+[0.152s] -- Up-to-date: /home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/ament_index/resource_index/parent_prefix_path/gs2lidar
+[0.152s] -- Up-to-date: /home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/environment/ament_prefix_path.sh
+[0.153s] -- Up-to-date: /home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/environment/ament_prefix_path.dsv
+[0.153s] -- Up-to-date: /home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/environment/path.sh
+[0.153s] -- Up-to-date: /home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/environment/path.dsv
+[0.153s] -- Up-to-date: /home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/local_setup.bash
+[0.153s] -- Up-to-date: /home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/local_setup.sh
+[0.153s] -- Up-to-date: /home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/local_setup.zsh
+[0.153s] -- Up-to-date: /home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/local_setup.dsv
+[0.153s] -- Installing: /home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/package.dsv
+[0.153s] -- Up-to-date: /home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/ament_index/resource_index/packages/gs2lidar
+[0.153s] -- Up-to-date: /home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/cmake/gs2lidarConfig.cmake
+[0.154s] -- Up-to-date: /home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/cmake/gs2lidarConfig-version.cmake
+[0.154s] -- Up-to-date: /home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/package.xml
+[0.156s] Invoked command in '/home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar

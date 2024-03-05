@@ -1,0 +1,119 @@
+[0.037s] Invoking command in '/home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/anaple/rtk_ws/src/gs2lidar -DCMAKE_INSTALL_PREFIX=/home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar
+[0.076s] -- The C compiler identification is GNU 11.4.0
+[0.112s] -- The CXX compiler identification is GNU 11.4.0
+[0.118s] -- Detecting C compiler ABI info
+[0.164s] -- Detecting C compiler ABI info - done
+[0.168s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.168s] -- Detecting C compile features
+[0.168s] -- Detecting C compile features - done
+[0.170s] -- Detecting CXX compiler ABI info
+[0.224s] -- Detecting CXX compiler ABI info - done
+[0.229s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.229s] -- Detecting CXX compile features
+[0.230s] -- Detecting CXX compile features - done
+[0.233s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.333s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.387s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.409s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.414s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.420s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.430s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.443s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.571s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.605s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.606s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.665s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.681s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.708s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.715s] -- Looking for pthread.h
+[0.766s] -- Looking for pthread.h - found
+[0.766s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.813s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.814s] -- Found Threads: TRUE  
+[0.891s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.951s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.951s] -- Configured cppcheck include dirs: /home/anaple/rtk_ws/src/gs2lidar/include;/home/anaple/rtk_ws/src/gs2lidar/src/sdk
+[0.951s] -- Configured cppcheck exclude dirs and/or files: 
+[0.953s] -- Added test 'lint_cmake' to check CMake code style
+[0.956s] -- Added test 'uncrustify' to check C / C++ code style
+[0.957s] -- Configured uncrustify additional arguments: 
+[0.957s] -- Added test 'xmllint' to check XML markup files
+[0.958s] -- Configuring done
+[0.963s] -- Generating done
+[0.964s] -- Build files have been written to: /home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar
+[0.972s] Invoked command in '/home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/anaple/rtk_ws/src/gs2lidar -DCMAKE_INSTALL_PREFIX=/home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar
+[0.972s] Invoking command in '/home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar -- -j16 -l16
+[1.003s] [ 30%] [32mBuilding CXX object CMakeFiles/ydlidar_driver.dir/src/sdk/impl/unix/unix_serial.cpp.o[0m
+[1.003s] [ 30%] [32mBuilding CXX object CMakeFiles/ydlidar_driver.dir/src/sdk/CYdLidar.cpp.o[0m
+[1.003s] [ 30%] [32mBuilding CXX object CMakeFiles/ydlidar_driver.dir/src/sdk/impl/unix/list_ports_linux.cpp.o[0m
+[1.003s] [ 40%] [32mBuilding CXX object CMakeFiles/ydlidar_driver.dir/src/sdk/serial.cpp.o[0m
+[1.005s] [ 60%] [32mBuilding C object CMakeFiles/ydlidar_driver.dir/src/sdk/lock.c.o[0m
+[1.005s] [ 60%] [32mBuilding CXX object CMakeFiles/ydlidar_driver.dir/src/sdk/impl/unix/unix_timer.cpp.o[0m
+[1.006s] [ 70%] [32mBuilding CXX object CMakeFiles/ydlidar_driver.dir/src/sdk/ydlidar_driver.cpp.o[0m
+[1.049s] [01m[K/home/anaple/rtk_ws/src/gs2lidar/src/sdk/lock.c:[m[K In function ‘[01m[Kfhs_lock[m[K’:
+[1.050s] [01m[K/home/anaple/rtk_ws/src/gs2lidar/src/sdk/lock.c:243:3:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kwrite[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[1.050s]   243 |   [01;35m[Kwrite(fd, lockinfo, 11)[m[K;
+[1.050s]       |   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.050s] [01m[K/home/anaple/rtk_ws/src/gs2lidar/src/sdk/lock.c:[m[K In function ‘[01m[Kuucp_lock[m[K’:
+[1.050s] [01m[K/home/anaple/rtk_ws/src/gs2lidar/src/sdk/lock.c:328:3:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kwrite[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[1.050s]   328 |   [01;35m[Kwrite(fd, lockinfo, 11)[m[K;
+[1.051s]       |   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.051s] [01m[K/home/anaple/rtk_ws/src/gs2lidar/src/sdk/lock.c:[m[K In function ‘[01m[Kis_device_locked[m[K’:
+[1.051s] [01m[K/home/anaple/rtk_ws/src/gs2lidar/src/sdk/lock.c:773:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kread[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[1.051s]   773 |     [01;35m[Kread(fd, pid_buffer, 11)[m[K;
+[1.051s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.234s] In file included from [01m[K/home/anaple/rtk_ws/src/gs2lidar/include/ydlidar_driver.h:57[m[K,
+[1.235s]                  from [01m[K/home/anaple/rtk_ws/src/gs2lidar/include/CYdLidar.h:54[m[K,
+[1.235s]                  from [01m[K/home/anaple/rtk_ws/src/gs2lidar/src/sdk/CYdLidar.cpp:34[m[K:
+[1.235s] [01m[K/home/anaple/rtk_ws/src/gs2lidar/include/ydlidar_protocol.h:351:27:[m[K [01;35m[Kwarning: [m[Kignoring packed attribute because of unpacked non-POD field ‘[01m[Kstd::vector<LaserPoint> LaserScan::points[m[K’
+[1.235s]   351 |   std::vector<LaserPoint> [01;35m[Kpoints[m[K;
+[1.235s]       |                           [01;35m[K^~~~~~[m[K
+[1.235s] [01m[K/home/anaple/rtk_ws/src/gs2lidar/include/ydlidar_protocol.h:353:15:[m[K [01;35m[Kwarning: [m[Kignoring packed attribute because of unpacked non-POD field ‘[01m[KLaserConfig LaserScan::config[m[K’
+[1.236s]   353 |   LaserConfig [01;35m[Kconfig[m[K;
+[1.236s]       |               [01;35m[K^~~~~~[m[K
+[1.364s] In file included from [01m[K/home/anaple/rtk_ws/src/gs2lidar/include/ydlidar_driver.h:57[m[K,
+[1.365s]                  from [01m[K/home/anaple/rtk_ws/src/gs2lidar/src/sdk/ydlidar_driver.cpp:34[m[K:
+[1.365s] [01m[K/home/anaple/rtk_ws/src/gs2lidar/include/ydlidar_protocol.h:351:27:[m[K [01;35m[Kwarning: [m[Kignoring packed attribute because of unpacked non-POD field ‘[01m[Kstd::vector<LaserPoint> LaserScan::points[m[K’
+[1.365s]   351 |   std::vector<LaserPoint> [01;35m[Kpoints[m[K;
+[1.365s]       |                           [01;35m[K^~~~~~[m[K
+[1.365s] [01m[K/home/anaple/rtk_ws/src/gs2lidar/include/ydlidar_protocol.h:353:15:[m[K [01;35m[Kwarning: [m[Kignoring packed attribute because of unpacked non-POD field ‘[01m[KLaserConfig LaserScan::config[m[K’
+[1.365s]   353 |   LaserConfig [01;35m[Kconfig[m[K;
+[1.365s]       |               [01;35m[K^~~~~~[m[K
+[1.401s] [01m[K/home/anaple/rtk_ws/src/gs2lidar/src/sdk/ydlidar_driver.cpp:[m[K In member function ‘[01m[Kresult_t ydlidar::YDlidarDriver::waitPackage(node_info*, uint32_t)[m[K’:
+[1.401s] [01m[K/home/anaple/rtk_ws/src/gs2lidar/src/sdk/ydlidar_driver.cpp:757:80:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[Knode_info[m[K’ may result in an unaligned pointer value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-of-packed-member-Waddress-of-packed-member]8;;[m[K]
+[1.401s]   757 |             angTransform((*node).distance_q2,package_Sample_Index,&sampleAngle,[01;35m[K&(*node).distance_q2[m[K);
+[1.401s]       |                                                                                [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.472s] In file included from [01m[K/home/anaple/rtk_ws/src/gs2lidar/include/ydlidar_driver.h:58[m[K,
+[1.472s]                  from [01m[K/home/anaple/rtk_ws/src/gs2lidar/include/CYdLidar.h:54[m[K,
+[1.472s]                  from [01m[K/home/anaple/rtk_ws/src/gs2lidar/src/sdk/CYdLidar.cpp:34[m[K:
+[1.472s] [01m[K/home/anaple/rtk_ws/src/gs2lidar/include/help_info.h:[m[K In member function ‘[01m[Kvoid CYdLidar::handleDeviceInfoPackage(int)[m[K’:
+[1.472s] [01m[K/home/anaple/rtk_ws/src/gs2lidar/include/help_info.h:715:67:[m[K [01;35m[Kwarning: [m[K‘[01m[K__builtin___sprintf_chk[m[K’ writing a terminating nul past the end of the destination [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-overflow=-Wformat-overflow=]8;;[m[K]
+[1.472s]   715 |       sprintf(reinterpret_cast<char *>(value.serialnum + 8), "%08d[01;35m[K"[m[K, Number);
+[1.472s]       |                                                                   [01;35m[K^[m[K
+[1.472s] In file included from [01m[K/usr/include/stdio.h:894[m[K,
+[1.472s]                  from [01m[K/usr/include/c++/11/cstdio:42[m[K,
+[1.472s]                  from [01m[K/usr/include/c++/11/ext/string_conversions.h:43[m[K,
+[1.472s]                  from [01m[K/usr/include/c++/11/bits/basic_string.h:6608[m[K,
+[1.472s]                  from [01m[K/usr/include/c++/11/string:55[m[K,
+[1.473s]                  from [01m[K/home/anaple/rtk_ws/src/gs2lidar/include/serial.h:6[m[K,
+[1.473s]                  from [01m[K/home/anaple/rtk_ws/src/gs2lidar/include/ydlidar_driver.h:54[m[K,
+[1.473s]                  from [01m[K/home/anaple/rtk_ws/src/gs2lidar/include/CYdLidar.h:54[m[K,
+[1.473s]                  from [01m[K/home/anaple/rtk_ws/src/gs2lidar/src/sdk/CYdLidar.cpp:34[m[K:
+[1.473s] [01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:38:34:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___sprintf_chk[m[K’ output 9 bytes into a destination of size 8
+[1.473s]    38 |   return [01;36m[K__builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,[m[K
+[1.473s]       |          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.473s]    39 | [01;36m[K                                  __glibc_objsize (__s), __fmt,[m[K
+[1.473s]       |                                   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.473s]    40 | [01;36m[K                                  __va_arg_pack ())[m[K;
+[1.473s]       |                                   [01;36m[K~~~~~~~~~~~~~~~~~[m[K
+[1.854s] [ 80%] [32m[1mLinking CXX static library libydlidar_driver.a[0m
+[1.875s] [ 80%] Built target ydlidar_driver
+[1.888s] [ 90%] [32mBuilding CXX object CMakeFiles/gs2lidar.dir/src/mian_ros2node.cpp.o[0m
+[1.892s] [01m[K/home/anaple/rtk_ws/src/gs2lidar/src/mian_ros2node.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: 没有那个文件或目录
+[1.893s]     1 | #include [01;31m[K<rclcpp/rclcpp.hpp>[m[K
+[1.893s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.893s] compilation terminated.
+[1.893s] gmake[2]: *** [CMakeFiles/gs2lidar.dir/build.make:76：CMakeFiles/gs2lidar.dir/src/mian_ros2node.cpp.o] 错误 1
+[1.893s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/gs2lidar.dir/all] 错误 2
+[1.893s] gmake: *** [Makefile:146：all] 错误 2
+[1.896s] Invoked command in '/home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar -- -j16 -l16

@@ -1,0 +1,184 @@
+[0.000000] (-) TimerEvent: {}
+[0.000144] (gs2lidar) JobQueued: {'identifier': 'gs2lidar', 'dependencies': OrderedDict()}
+[0.000180] (gs2lidar) JobStarted: {'identifier': 'gs2lidar'}
+[0.034699] (gs2lidar) JobProgress: {'identifier': 'gs2lidar', 'progress': 'cmake'}
+[0.035280] (gs2lidar) JobProgress: {'identifier': 'gs2lidar', 'progress': 'build'}
+[0.035429] (gs2lidar) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar', '--', '-j16', '-l16'], 'cwd': '/home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'anaple'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anaple'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.87.0'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '3196'), ('SYSTEMD_EXEC_PID', '3518'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '40648'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu-xorg.mandatory.path'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'anaple'), ('JOURNAL_STREAM', '8:92477'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu-xorg.default.path'), ('USERNAME', 'anaple'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/anaple/.local/bin:/opt/ros/humble/bin:/home/anaple/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anaple-NUC12WSHi5:@/tmp/.ICE-unix/3499,unix/anaple-NUC12WSHi5:/tmp/.ICE-unix/3499'), ('INVOCATION_ID', 'b53115d125b741c5b9c7750764097017'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e36171ed7b.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '14'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.054265] (gs2lidar) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099246] (-) TimerEvent: {}
+[0.154619] (gs2lidar) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.174438] (gs2lidar) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.175814] (gs2lidar) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.180306] (gs2lidar) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.188357] (gs2lidar) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.199381] (-) TimerEvent: {}
+[0.200044] (gs2lidar) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299590] (-) TimerEvent: {}
+[0.337050] (gs2lidar) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.366924] (gs2lidar) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.367730] (gs2lidar) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.399734] (-) TimerEvent: {}
+[0.449342] (gs2lidar) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.499957] (-) TimerEvent: {}
+[0.527292] (gs2lidar) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.600190] (-) TimerEvent: {}
+[0.700602] (-) TimerEvent: {}
+[0.724151] (gs2lidar) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.785669] (gs2lidar) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.785965] (gs2lidar) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/anaple/rtk_ws/src/gs2lidar/include;/home/anaple/rtk_ws/src/gs2lidar/src/sdk\n'}
+[0.786082] (gs2lidar) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.788070] (gs2lidar) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.791857] (gs2lidar) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.793833] (gs2lidar) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.800808] (-) TimerEvent: {}
+[0.808519] (gs2lidar) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.808736] (gs2lidar) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.811439] (gs2lidar) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.812710] (gs2lidar) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.823495] (gs2lidar) StdoutLine: {'line': b'-- Generating done\n'}
+[0.825276] (gs2lidar) StdoutLine: {'line': b'-- Build files have been written to: /home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar\n'}
+[0.846573] (gs2lidar) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ydlidar_driver\x1b[0m\n'}
+[0.864864] (gs2lidar) StdoutLine: {'line': b'[ 80%] Built target ydlidar_driver\n'}
+[0.871782] (gs2lidar) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gs2lidar\x1b[0m\n'}
+[0.887092] (gs2lidar) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/gs2lidar.dir/src/main_ros2node.cpp.o\x1b[0m\n'}
+[0.900934] (-) TimerEvent: {}
+[1.001325] (-) TimerEvent: {}
+[1.101934] (-) TimerEvent: {}
+[1.202244] (-) TimerEvent: {}
+[1.302543] (-) TimerEvent: {}
+[1.402921] (-) TimerEvent: {}
+[1.503321] (-) TimerEvent: {}
+[1.603714] (-) TimerEvent: {}
+[1.704089] (-) TimerEvent: {}
+[1.804491] (-) TimerEvent: {}
+[1.904872] (-) TimerEvent: {}
+[2.005262] (-) TimerEvent: {}
+[2.105585] (-) TimerEvent: {}
+[2.205893] (-) TimerEvent: {}
+[2.306269] (-) TimerEvent: {}
+[2.352403] (gs2lidar) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/include/serial.h:9\x1b[m\x1b[K,\n'}
+[2.352613] (gs2lidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/include/ydlidar_driver.h:54\x1b[m\x1b[K,\n'}
+[2.352661] (gs2lidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/include/CYdLidar.h:54\x1b[m\x1b[K,\n'}
+[2.352696] (gs2lidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/src/main_ros2node.cpp:4\x1b[m\x1b[K:\n'}
+[2.352732] (gs2lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/include/v8stdint.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool ydlidar::fileExists(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.352775] (gs2lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_ino\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.352815] (gs2lidar) StderrLine: {'line': b'  240 |   struct stat info = {0\x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[2.352848] (gs2lidar) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.352882] (gs2lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_nlink\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.352923] (gs2lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_mode\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.352963] (gs2lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_uid\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.353000] (gs2lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_gid\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.353037] (gs2lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::__pad0\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.353073] (gs2lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_rdev\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.353120] (gs2lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_size\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.353159] (gs2lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_blksize\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.353194] (gs2lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_blocks\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.353235] (gs2lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_atim\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.353273] (gs2lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_mtim\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.353307] (gs2lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_ctim\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.353344] (gs2lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::__glibc_reserved\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.354408] (gs2lidar) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/include/ydlidar_driver.h:56\x1b[m\x1b[K,\n'}
+[2.354540] (gs2lidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/include/CYdLidar.h:54\x1b[m\x1b[K,\n'}
+[2.354607] (gs2lidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/src/main_ros2node.cpp:4\x1b[m\x1b[K:\n'}
+[2.354660] (gs2lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/include/thread.h:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic Thread Thread::createThread(thread_proc_t, void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.354710] (gs2lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/include/thread.h:43:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcast between incompatible function types from \xe2\x80\x98\x1b[01m\x1b[Kthread_proc_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int (*)(void*)\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kvoid* (*)(void*)\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type\x07-Wcast-function-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.354768] (gs2lidar) StderrLine: {'line': b'   43 | d_create((pthread_t *)&thread_._handle, NULL, \x1b[01;35m\x1b[K(void *(*)(void *))proc\x1b[m\x1b[K,\n'}
+[2.354809] (gs2lidar) StderrLine: {'line': b'      |                                               \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.354846] (gs2lidar) StderrLine: {'line': b'\n'}
+[2.356813] (gs2lidar) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/include/ydlidar_driver.h:57\x1b[m\x1b[K,\n'}
+[2.356982] (gs2lidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/include/CYdLidar.h:54\x1b[m\x1b[K,\n'}
+[2.357049] (gs2lidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/src/main_ros2node.cpp:4\x1b[m\x1b[K:\n'}
+[2.357110] (gs2lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/include/ydlidar_protocol.h:\x1b[m\x1b[K At global scope:\n'}
+[2.357176] (gs2lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/include/ydlidar_protocol.h:351:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring packed attribute because of unpacked non-POD field \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<LaserPoint> LaserScan::points\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.357246] (gs2lidar) StderrLine: {'line': b'  351 |   std::vector<LaserPoint> \x1b[01;35m\x1b[Kpoints\x1b[m\x1b[K;\n'}
+[2.357299] (gs2lidar) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.357358] (gs2lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/include/ydlidar_protocol.h:353:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring packed attribute because of unpacked non-POD field \xe2\x80\x98\x1b[01m\x1b[KLaserConfig LaserScan::config\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.357414] (gs2lidar) StderrLine: {'line': b'  353 |   LaserConfig \x1b[01;35m\x1b[Kconfig\x1b[m\x1b[K;\n'}
+[2.357464] (gs2lidar) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.358193] (gs2lidar) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/include/ydlidar_driver.h:58\x1b[m\x1b[K,\n'}
+[2.358279] (gs2lidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/include/CYdLidar.h:54\x1b[m\x1b[K,\n'}
+[2.358323] (gs2lidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/src/main_ros2node.cpp:4\x1b[m\x1b[K:\n'}
+[2.358360] (gs2lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/include/help_info.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool ydlidar::isSupportMotorCtrl(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.358394] (gs2lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/include/help_info.h:439:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kret\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.358437] (gs2lidar) StderrLine: {'line': b'  439 |   bool \x1b[01;35m\x1b[Kret\x1b[m\x1b[K = false;\n'}
+[2.358473] (gs2lidar) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.374497] (gs2lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/src/main_ros2node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LanserScannerNode::serialReader()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.374688] (gs2lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/src/main_ros2node.cpp:81:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kheader\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.374753] (gs2lidar) StderrLine: {'line': b'   81 |             uint8_t *\x1b[01;35m\x1b[Kheader\x1b[m\x1b[K = reinterpret_cast<uint8_t *>(&scan);\n'}
+[2.374794] (gs2lidar) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.374834] (gs2lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/src/main_ros2node.cpp:82:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ksize\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.374881] (gs2lidar) StderrLine: {'line': b'   82 |             size_t \x1b[01;35m\x1b[Ksize\x1b[m\x1b[K = sizeof(scan);\n'}
+[2.374923] (gs2lidar) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.406455] (-) TimerEvent: {}
+[2.506846] (-) TimerEvent: {}
+[2.607230] (-) TimerEvent: {}
+[2.707619] (-) TimerEvent: {}
+[2.807943] (-) TimerEvent: {}
+[2.908348] (-) TimerEvent: {}
+[3.008801] (-) TimerEvent: {}
+[3.109227] (-) TimerEvent: {}
+[3.209531] (-) TimerEvent: {}
+[3.309952] (-) TimerEvent: {}
+[3.410318] (-) TimerEvent: {}
+[3.510808] (-) TimerEvent: {}
+[3.587573] (gs2lidar) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/string.h:535\x1b[m\x1b[K,\n'}
+[3.587849] (gs2lidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34\x1b[m\x1b[K,\n'}
+[3.587975] (gs2lidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25\x1b[m\x1b[K,\n'}
+[3.588068] (gs2lidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rmw/rmw/types.h:28\x1b[m\x1b[K,\n'}
+[3.588156] (gs2lidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rcl/rcl/types.h:20\x1b[m\x1b[K,\n'}
+[3.588276] (gs2lidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rcl/rcl/log_level.h:22\x1b[m\x1b[K,\n'}
+[3.588371] (gs2lidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rcl/rcl/arguments.h:21\x1b[m\x1b[K,\n'}
+[3.588463] (gs2lidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rcl/rcl/context.h:28\x1b[m\x1b[K,\n'}
+[3.588552] (gs2lidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26\x1b[m\x1b[K,\n'}
+[3.588651] (gs2lidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30\x1b[m\x1b[K,\n'}
+[3.588738] (gs2lidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.588846] (gs2lidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.588950] (gs2lidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.589043] (gs2lidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/src/main_ros2node.cpp:1\x1b[m\x1b[K:\n'}
+[3.589135] (gs2lidar) StderrLine: {'line': b'In function \xe2\x80\x98\x1b[01m\x1b[Kchar* strncpy(char*, const char*, size_t)\x1b[m\x1b[K\xe2\x80\x99,\n'}
+[3.589235] (gs2lidar) StderrLine: {'line': b'    inlined from \xe2\x80\x98\x1b[01m\x1b[Ksigaction set_sigaction(int, const sigaction&)\x1b[m\x1b[K\xe2\x80\x99 at \x1b[01m\x1b[K/home/anaple/rtk_ws/src/gs2lidar/include/v8stdint.h:134:14\x1b[m\x1b[K:\n'}
+[3.589363] (gs2lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/string_fortified.h:95:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kchar* __builtin_strncpy(char*, const char*, long unsigned int)\x1b[m\x1b[K\xe2\x80\x99 specified bound 1024 equals destination size [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-truncation\x07-Wstringop-truncation\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.589491] (gs2lidar) StderrLine: {'line': b'   95 |   return \x1b[01;35m\x1b[K__builtin___strncpy_chk (__dest, __src, __len,\x1b[m\x1b[K\n'}
+[3.589597] (gs2lidar) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.589694] (gs2lidar) StderrLine: {'line': b'   96 | \x1b[01;35m\x1b[K                                  __glibc_objsize (__dest))\x1b[m\x1b[K;\n'}
+[3.589787] (gs2lidar) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.610908] (-) TimerEvent: {}
+[3.711369] (-) TimerEvent: {}
+[3.811761] (-) TimerEvent: {}
+[3.912173] (-) TimerEvent: {}
+[4.012599] (-) TimerEvent: {}
+[4.113066] (-) TimerEvent: {}
+[4.213392] (-) TimerEvent: {}
+[4.313756] (-) TimerEvent: {}
+[4.414066] (-) TimerEvent: {}
+[4.514377] (-) TimerEvent: {}
+[4.520465] (gs2lidar) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable gs2lidar\x1b[0m\n'}
+[4.614605] (-) TimerEvent: {}
+[4.624116] (gs2lidar) StdoutLine: {'line': b'[100%] Built target gs2lidar\n'}
+[4.632155] (gs2lidar) CommandEnded: {'returncode': 0}
+[4.662239] (gs2lidar) JobProgress: {'identifier': 'gs2lidar', 'progress': 'install'}
+[4.668058] (gs2lidar) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar'], 'cwd': '/home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'anaple'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anaple'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.87.0'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '3196'), ('SYSTEMD_EXEC_PID', '3518'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '40648'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu-xorg.mandatory.path'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'anaple'), ('JOURNAL_STREAM', '8:92477'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu-xorg.default.path'), ('USERNAME', 'anaple'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/anaple/.local/bin:/opt/ros/humble/bin:/home/anaple/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anaple-NUC12WSHi5:@/tmp/.ICE-unix/3499,unix/anaple-NUC12WSHi5:/tmp/.ICE-unix/3499'), ('INVOCATION_ID', 'b53115d125b741c5b9c7750764097017'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e36171ed7b.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '14'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.672892] (gs2lidar) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[4.673218] (gs2lidar) StdoutLine: {'line': b'-- Installing: /home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/lib/gs2lidar/gs2lidar\n'}
+[4.674517] (gs2lidar) StdoutLine: {'line': b'-- Set runtime path of "/home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/lib/gs2lidar/gs2lidar" to ""\n'}
+[4.674700] (gs2lidar) StdoutLine: {'line': b'-- Installing: /home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/launch\n'}
+[4.674835] (gs2lidar) StdoutLine: {'line': b'-- Installing: /home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/launch/ydlidar_launch.py\n'}
+[4.674964] (gs2lidar) StdoutLine: {'line': b'-- Up-to-date: /home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/ament_index/resource_index/package_run_dependencies/gs2lidar\n'}
+[4.675066] (gs2lidar) StdoutLine: {'line': b'-- Installing: /home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/ament_index/resource_index/parent_prefix_path/gs2lidar\n'}
+[4.675199] (gs2lidar) StdoutLine: {'line': b'-- Up-to-date: /home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/environment/ament_prefix_path.sh\n'}
+[4.675331] (gs2lidar) StdoutLine: {'line': b'-- Installing: /home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/environment/ament_prefix_path.dsv\n'}
+[4.675424] (gs2lidar) StdoutLine: {'line': b'-- Up-to-date: /home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/environment/path.sh\n'}
+[4.675522] (gs2lidar) StdoutLine: {'line': b'-- Installing: /home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/environment/path.dsv\n'}
+[4.675628] (gs2lidar) StdoutLine: {'line': b'-- Up-to-date: /home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/local_setup.bash\n'}
+[4.675725] (gs2lidar) StdoutLine: {'line': b'-- Up-to-date: /home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/local_setup.sh\n'}
+[4.675805] (gs2lidar) StdoutLine: {'line': b'-- Up-to-date: /home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/local_setup.zsh\n'}
+[4.675883] (gs2lidar) StdoutLine: {'line': b'-- Installing: /home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/local_setup.dsv\n'}
+[4.675970] (gs2lidar) StdoutLine: {'line': b'-- Installing: /home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/package.dsv\n'}
+[4.676061] (gs2lidar) StdoutLine: {'line': b'-- Up-to-date: /home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/ament_index/resource_index/packages/gs2lidar\n'}
+[4.676146] (gs2lidar) StdoutLine: {'line': b'-- Up-to-date: /home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/cmake/gs2lidarConfig.cmake\n'}
+[4.676225] (gs2lidar) StdoutLine: {'line': b'-- Up-to-date: /home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/cmake/gs2lidarConfig-version.cmake\n'}
+[4.676311] (gs2lidar) StdoutLine: {'line': b'-- Up-to-date: /home/anaple/rtk_ws/src/gs2lidar/install/gs2lidar/share/gs2lidar/package.xml\n'}
+[4.677960] (gs2lidar) CommandEnded: {'returncode': 0}
+[4.714799] (-) TimerEvent: {}
+[4.777038] (gs2lidar) JobEnded: {'identifier': 'gs2lidar', 'rc': 0}
+[4.778077] (-) EventReactorShutdown: {}

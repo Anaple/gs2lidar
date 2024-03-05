@@ -1,0 +1,34 @@
+[0.103s] Invoking command in '/home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar -- -j16 -l16
+[0.134s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.375s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.402s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.405s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.413s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.425s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.443s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.632s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.673s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.674s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.769s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.864s] -- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.380s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.576s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.576s] -- Configured cppcheck include dirs: /home/anaple/rtk_ws/src/gs2lidar/include;/home/anaple/rtk_ws/src/gs2lidar/src/sdk
+[1.576s] -- Configured cppcheck exclude dirs and/or files: 
+[1.584s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.590s] -- Added test 'lint_cmake' to check CMake code style
+[1.598s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.638s] -- Added test 'uncrustify' to check C / C++ code style
+[1.638s] -- Configured uncrustify additional arguments: 
+[1.642s] -- Added test 'xmllint' to check XML markup files
+[1.644s] -- Configuring done
+[1.664s] -- Generating done
+[1.667s] -- Build files have been written to: /home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar
+[1.704s] [35m[1mConsolidate compiler generated dependencies of target ydlidar_driver[0m
+[1.738s] [ 80%] Built target ydlidar_driver
+[1.755s] [35m[1mConsolidate compiler generated dependencies of target gs2lidar[0m
+[1.786s] [ 90%] [32mBuilding CXX object CMakeFiles/gs2lidar.dir/src/main_ros2node.cpp.o[0m
+[2.927s] gmake[2]: *** [CMakeFiles/gs2lidar.dir/build.make:76: CMakeFiles/gs2lidar.dir/src/main_ros2node.cpp.o] 中断
+[2.927s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/gs2lidar.dir/all] 中断
+[2.928s] gmake: *** [Makefile:146: all] 中断
+[2.939s] Invoked command in '/home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/anaple/rtk_ws/src/gs2lidar/build/gs2lidar -- -j16 -l16
