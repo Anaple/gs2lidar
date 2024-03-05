@@ -1,3 +1,0 @@
-gmake[2]: *** [CMakeFiles/gs2lidar.dir/build.make:76: CMakeFiles/gs2lidar.dir/src/main_ros2node.cpp.o] 中断
-gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/gs2lidar.dir/all] 中断
-gmake: *** [Makefile:146: all] 中断

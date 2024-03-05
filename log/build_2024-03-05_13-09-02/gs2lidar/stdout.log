@@ -1,3 +1,0 @@
-[ 80%] Built target ydlidar_driver
-[ 90%] [32mBuilding CXX object CMakeFiles/gs2lidar.dir/src/main_ros2node.cpp.o[0m
-[100%] [32m[1mLinking CXX executable gs2lidar[0m

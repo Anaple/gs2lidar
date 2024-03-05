@@ -1,8 +1,0 @@
-source;share/gs2lidar/hook/cmake_prefix_path.ps1
-source;share/gs2lidar/hook/cmake_prefix_path.dsv
-source;share/gs2lidar/hook/cmake_prefix_path.sh
-source;share/gs2lidar/local_setup.bash
-source;share/gs2lidar/local_setup.dsv
-source;share/gs2lidar/local_setup.ps1
-source;share/gs2lidar/local_setup.sh
-source;share/gs2lidar/local_setup.zsh

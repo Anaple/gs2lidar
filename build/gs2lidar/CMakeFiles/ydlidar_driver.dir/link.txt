@@ -1,2 +1,0 @@
-/usr/bin/ar qc libydlidar_driver.a CMakeFiles/ydlidar_driver.dir/src/sdk/CYdLidar.cpp.o CMakeFiles/ydlidar_driver.dir/src/sdk/impl/unix/list_ports_linux.cpp.o CMakeFiles/ydlidar_driver.dir/src/sdk/impl/unix/unix_serial.cpp.o CMakeFiles/ydlidar_driver.dir/src/sdk/impl/unix/unix_timer.cpp.o CMakeFiles/ydlidar_driver.dir/src/sdk/lock.c.o CMakeFiles/ydlidar_driver.dir/src/sdk/serial.cpp.o CMakeFiles/ydlidar_driver.dir/src/sdk/ydlidar_driver.cpp.o
-/usr/bin/ranlib libydlidar_driver.a
