@@ -3,4 +3,5 @@ build/
 log/
 install/
 .vscode/
-
+.idea/
+cmake-build-debug/
