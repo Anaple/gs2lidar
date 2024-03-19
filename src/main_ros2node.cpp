@@ -22,22 +22,15 @@ public:
     LanserScannerNode(int argc, char **argv) : Node("lanser_scanner")
     {
         ydlidar::init(argc, argv);
-        std::map<std::string, std::string> ports =
-            ydlidar::YDlidarDriver::lidarPortList();
-        std::map<std::string, std::string>::iterator it;
-        int id = 0;
-        for (it = ports.begin(); it != ports.end(); it++)
-        {
-            printf("%d. %s\n", id, it->first.c_str());
-            id++;
-        }
+
         // 创建发布者
         publisher_ = create_publisher<sensor_msgs::msg::LaserScan>("/scan", 10);
 
-        // 创建定时器
-        // timer_ = create_wall_timer(500ms, std::bind(&LanserScannerNode::onTimer, this));
+        this->declare_parameter<std::string>("serial_port", "/dev/ydlidar");
+        this->get_parameter_or<std::string>("serial_port", port, "/dev/ydlidar");
 
-        port = "/dev/ttyUSB0";
+        // printf("%s\r\n", port.c_str());
+        RCLCPP_INFO(this->get_logger(), "port: %s", port.c_str());
 
         // 创建串口
         result_t ret = initRecvPort(&_serial, port, 921600);
@@ -81,22 +74,27 @@ private:
             uint8_t *header = reinterpret_cast<uint8_t *>(&scan);
             size_t size = sizeof(scan);
 
+            rclcpp::Time start_scan_time;
+            rclcpp::Time end_scan_time;
+            double scan_duration;
+            start_scan_time = this->now();
+
             if (laser.doProcessSimple(scan, hardError))
             {
-                fprintf(stdout, "Scan received[%lu]: %u ranges is [%f]Hz\n",
-                        scan.stamp,
-                        (unsigned int)scan.points.size(),
-                        1.0 / scan.config.scan_time);
-                fflush(stdout);
+
+                end_scan_time = this->now();
+                scan_duration = (end_scan_time - start_scan_time).seconds();
+
                 auto scan_msg = std::make_shared<sensor_msgs::msg::LaserScan>();
+
                 scan_msg->header.stamp.sec = RCL_NS_TO_S(scan.stamp);
                 scan_msg->header.stamp.nanosec = scan.stamp - RCL_S_TO_NS(scan_msg->header.stamp.sec);
                 scan_msg->header.frame_id = "laser_frame";
-
                 scan_msg->angle_min = -0.9163;
                 scan_msg->angle_max = 0.9163;
                 scan_msg->angle_increment = 0.0105;
-                scan_msg->scan_time = scan.config.scan_time;
+
+                scan_msg->scan_time = scan_duration;
                 scan_msg->time_increment = scan.config.time_increment;
                 scan_msg->range_min = 0.001;
                 scan_msg->range_max = 1;
